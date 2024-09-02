@@ -91,6 +91,7 @@ class PostScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Getting Dimensions of Screen
     final height = MediaQuery.of(context).size.height;
+    final width = MediaQuery.of(context).size.width;
 
     // Accessing the PostProvider to get the state
     final postProvider = Provider.of<PostProvider>(context);
@@ -137,13 +138,17 @@ class PostScreen extends StatelessWidget {
                   ),
                 );
               }),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.lightBlue,
-        onPressed: () {
-          postProvider
-              .fetchAndSetPost(); // Fetch and update posts when button is pressed
-        },
-        child: const Icon(Icons.refresh,color: Colors.white,), // Icon for the button
+      floatingActionButton: SizedBox(
+        height: height * 0.09,
+        width: width * 0.2,
+        child: FloatingActionButton(
+          backgroundColor: Colors.lightBlue,
+          onPressed: () {
+            postProvider
+                .fetchAndSetPost(); // Fetch and update posts when button is pressed
+          },
+          child: Icon(Icons.refresh,color: Colors.white,size: height * 0.06,), // Icon for the button
+        ),
       ),
     );
   }
