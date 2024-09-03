@@ -13,7 +13,7 @@ This Flutter app demonstrates how to integrate networking and API calls by fetch
 
 ## Screenshots 📸
 
-![App Screenshot](path_to_screenshot.png)
+![App Screenshot](https://github.com/WaleedTaj/networking-and-API-integration/blob/master/assets/Screenshot_1.png)
 
 ### Installation
 
