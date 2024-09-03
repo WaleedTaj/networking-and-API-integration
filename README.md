@@ -13,8 +13,7 @@ This Flutter app demonstrates how to integrate networking and API calls by fetch
 
 ## Screenshots 📸
 
-![App Screenshot](https://github.com/WaleedTaj/networking-and-API-integration/blob/master/assets/Screenshot_1.png)
-
+<img src="https://github.com/WaleedTaj/networking-and-API-integration/blob/master/assets/Screenshot_1.png" width="200" style="margin-right: 20px;"/> <img src="https://github.com/WaleedTaj/networking-and-API-integration/blob/master/assets/Screenshot_2.png" width="200"/> <img src="https://github.com/WaleedTaj/networking-and-API-integration/blob/master/assets/Screenshot_3.png" width="200"/>
 ### Installation
 
 To install and run the Mosam App on your device, follow these steps:
